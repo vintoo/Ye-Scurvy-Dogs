@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C407EB801936B29D009D8F32 /* YSDfakeFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C407EB7F1936B29D009D8F32 /* YSDfakeFile.m */; };
 		C43E7A07191C44DA00F50D1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43E7A06191C44DA00F50D1F /* Foundation.framework */; };
 		C43E7A09191C44DA00F50D1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43E7A08191C44DA00F50D1F /* CoreGraphics.framework */; };
 		C43E7A0B191C44DA00F50D1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43E7A0A191C44DA00F50D1F /* UIKit.framework */; };
@@ -64,6 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C407EB7E1936B29D009D8F32 /* YSDfakeFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSDfakeFile.h; sourceTree = "<group>"; };
+		C407EB7F1936B29D009D8F32 /* YSDfakeFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSDfakeFile.m; sourceTree = "<group>"; };
 		C43E7A03191C44DA00F50D1F /* Ye Scurvey Dogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ye Scurvey Dogs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43E7A06191C44DA00F50D1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C43E7A08191C44DA00F50D1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -268,6 +271,8 @@
 			children = (
 				C4D24E64191E996700FB8B8A /* YSDFactory.h */,
 				C4D24E65191E996700FB8B8A /* YSDFactory.m */,
+				C407EB7E1936B29D009D8F32 /* YSDfakeFile.h */,
+				C407EB7F1936B29D009D8F32 /* YSDfakeFile.m */,
 			);
 			name = Factory;
 			sourceTree = "<group>";
@@ -401,6 +406,7 @@
 				C4D24E63191E982000FB8B8A /* YSDTile.m in Sources */,
 				C4D24E7C191EF56900FB8B8A /* YSDcharacter.m in Sources */,
 				C43E7A17191C44DA00F50D1F /* YSDAppDelegate.m in Sources */,
+				C407EB801936B29D009D8F32 /* YSDfakeFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

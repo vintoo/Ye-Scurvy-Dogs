@@ -76,7 +76,7 @@
     
     // Tile 1,1
     YSDTile *tile4 = [[YSDTile alloc] init];
-    tile4.story = @"A magic parrot alights on yer shoulder. The beast is loyal, and will suffer a blow for ye if trouble seeks ye out.";
+    tile4.story = @"A magic parrot alights on yer shoulder. The beast is loyal, and will suffer damage on yer behalf if trouble seeks ye out.";
     tile4.visitedStory = @"Ye slipped on magic parrot droppings and are humiliated, but otherwise undamaged";
     tile4.backgroundImage = [UIImage imageNamed:@"YeScurveyDogs-4.png"];
     tile4.visitedBackgroundImage = [UIImage imageNamed:@"tileNoFog.png"];
